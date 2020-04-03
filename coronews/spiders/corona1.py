@@ -5,4 +5,4 @@ class CoroNews(scrapy.Spider):
     
     def parse(self, response):
         news = response.css('.news-right-box .clickable span::text')[:5].extract()
-        yield{'titletext': news}
+        yield{'News': news}
