@@ -50,7 +50,7 @@ tensorflow-estimator==2.0.0
 termcolor==1.1.0
 textblob==0.15.3
 tflearn==0.3.2
-Twisted==20.3.0
+Twisted==22.10.0
 virtualenv==20.0.15
 virtualenv-clone==0.5.4
 w3lib==1.21.0
